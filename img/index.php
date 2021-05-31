@@ -297,7 +297,7 @@
 	<div class="write-ok">
 		<div class="write-box">
 			<h2>还差一步即可生成表白页面</h2>
-			<p id="write-mp3">自定义背景音乐：<span id="text-music" contenteditable="true">http://<?php echo $_SERVER['HTTP_HOST']; ?>/love/music/saveme</span><i></i>.mp3</p>
+			<p id="write-mp3">自定义背景音乐：<span id="text-music" contenteditable="true">http://<?php echo $_SERVER['HTTP_HOST']; ?>/love/music/nhac</span><i></i>.mp3</p>
 			<p id="write-url">自定义表白链接：<u>http://<?php echo $_SERVER['HTTP_HOST']; ?>/love/2014/</u><span id="text-href" contenteditable="true"><?php echo time(); ?></span><i></i><u>.html</u></p>
 			<p><small>自定义链接名只能为3-30位的字母[a-zA-Z]、数字[0-9]、- 和 _ </small></p>
 			<small><a href="###" id="back">重新修改</a></small> <button id="write-post">❤ 生成表白页面</button>
@@ -308,7 +308,7 @@
 		</div>
 	</div>
 
-	<audio id="bgmMusic" src="music/saveme.mp3" autoplay="autoplay" loop="loop" preload="auto" type="audio/mp3"></audio>
+	<audio id="bgmMusic" src="music/nhac.mp3" autoplay="autoplay" loop="loop" preload="auto" type="audio/mp3"></audio>
     
 	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 	<script src="js/all.min.js"></script>
